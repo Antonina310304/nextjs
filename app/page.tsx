@@ -1,7 +1,5 @@
-import Image from "next/image";
+import { JSX } from "react";
 
-export default function Home() {
-  return (
-   <div>sadfasdfasdf</div>
-  );
+export default function Home(): JSX {
+  return <div>main content</div>;
 }
